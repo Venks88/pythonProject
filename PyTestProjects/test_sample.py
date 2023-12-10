@@ -20,5 +20,6 @@ def raiser():
 
 
 def test_raiser():
-    pytest.raises(SystemExit)
+    with pytest.raises(ValueError):
+        raiser()
 
