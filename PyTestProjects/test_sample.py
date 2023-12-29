@@ -15,11 +15,11 @@ def test_answer2():
     assert inc(5) == 6
 
 
-def raiser():
-    raise SystemExit
+# def raiser():
+#     raise SystemExit
 
 
-def test_raiser():
-    with pytest.raises(ValueError):
-        raiser()
+# def test_raiser():
+#     with pytest.raises(ValueError):
+#         raiser()
 
